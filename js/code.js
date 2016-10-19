@@ -102,9 +102,23 @@
      // a string provided as an argument. For example, reverse("jag testar")
      // should return the string "ratset gaj".
 
-      function reverse(x) {
-        return x.split("").reverse().join("");
+      // function reverse(x) {
+      //   return x.split("").reverse().join("");
+      // }
+
+      function reverse(str) {
+        var newString = '';
+
+          for (var i = str.length - 1; i >= 0; i--) {
+
+              newString += str[i];
+
+            }
+
+          return newString
       }
+
+        console.log(reverse(""));
 
 
      // TODO 9: Write a function called `translate` that will translate text
