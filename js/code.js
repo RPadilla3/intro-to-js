@@ -102,6 +102,9 @@
      // a string provided as an argument. For example, reverse("jag testar")
      // should return the string "ratset gaj".
 
+      function reverse(x) {
+        return x.split("").reverse().join("");
+      }
 
 
      // TODO 9: Write a function called `translate` that will translate text
