@@ -83,12 +83,13 @@
      // "I prefer __1__ while I __2__ so that I don't __3__ on the __4__."
      // Finally, the function should return that new sentence.
 
-     function madlib (w, x, y, z) {
+     function madlib (action1, action2, action3, action4) {
 
-
-       var log = "I prefer " + w + " while I " + x + " so that I don/'t " + y + " on the " + z + ".";
+       return "I prefer " + action1 + " while I " + action2 + " so that I don\'t " + action3 + " on the " + action4 + "."
 
      }
+
+
      /* ***************************************************************
                               EPIC Mode
 
